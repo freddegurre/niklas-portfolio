@@ -1,0 +1,18 @@
+body {
+    background: url(./img/niklas.jpg);
+    background-repeat: no-repeat;
+    background-size:     cover;   
+}
+
+.infoWrapper{
+    max-width: 450px;
+    margin-left: 10%; 
+    margin-top: 5%; 
+    margin-left: 5%; 
+    background-color: rgba(255, 255, 255, 0.527); 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+.row{
+    margin: 4px; 
+}
