@@ -1,18 +1,74 @@
 body {
-    background: url(./img/niklas.jpg);
+    font-family: "Arial Black Regular", sans-serif; 
+}
+/* set background image per page */
+.index-bg {
+    background: url(./img/wallpaperforwebsite.jpg);
     background-repeat: no-repeat;
-    background-size:     cover;   
+    background-size: cover; 
+}
+.info-bg {
+    background: url(./img/info.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.justGuts-bg {
+    background: url(./img/justGuts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
+body,html{
+    height:75%;
+}
+h3{
+    color: white; 
+}
+h5{
+    color: #934434;
+}
+.list-unstyled{
+    color: white; 
+}
 .infoWrapper{
     max-width: 450px;
     margin-left: 10%; 
-    margin-top: 5%; 
+    margin-top: 2%; 
     margin-left: 5%; 
-    background-color: rgba(255, 255, 255, 0.527); 
     padding: 5px; 
-    border-radius: 5px; 
 }
+
+#current{
+    text-align: center;
+}
+
 .row{
     margin: 4px; 
+}
+.navbar{
+    background-color: white;
+}
+
+.header {
+    color: #ebb830; 
+    font-family: "Arial Black", "Arial Bold", sans-serif; 
+    
+}
+.header:hover{
+    color: #ebb830; 
+}
+
+.nav-link{
+    color: lightgray;
+}
+.nav-link:hover { 
+    color: #934434;
+}
+
+#justGuts{
+    color: white;
+}
+
+#justGuts-head{
+    color: white; 
 }
