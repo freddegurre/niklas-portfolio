@@ -72,3 +72,10 @@ h5{
 #justGuts-head{
     color: white; 
 }
+
+#justGutsRow{
+    margin-top: 30%;
+}
+.navbar-toggler-icon {
+    color: #934434
+}
