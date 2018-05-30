@@ -86,7 +86,7 @@ h5{
 }
 
 /* Media screens size adjust */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 908px) {
     .index-bg {
         background-size: auto; 
     }
@@ -96,9 +96,8 @@ h5{
     .justGuts-bg {
         background-size: auto; 
     }
-    /* this is a black icon with 50% opacity*/
-    .navbar-light .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;..");
+    .list-unstyled{
+        color: darkgray; 
     }
     
   }
