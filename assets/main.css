@@ -17,52 +17,55 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
 }
-
+/* Center text content on main and blog */
 body,html{
     height:75%;
 }
+
+/* text */
 h3{
     color: white; 
 }
 h5{
     color: #934434;
 }
+.header {
+    color: #ebb830; 
+    font-family: "Arial Black", "Arial Bold", sans-serif; 
+    
+}
+/* Hover effects */
+.header:hover{
+    color: #ebb830; 
+}
+.nav-link{
+    color: lightgray;
+}
+.nav-link:hover { 
+    color: #934434;
+}
+
+
 .list-unstyled{
     color: white; 
 }
-.infoWrapper{
-    max-width: 450px;
-    margin-left: 10%; 
-    margin-top: 2%; 
-    margin-left: 5%; 
-    padding: 5px; 
+
+/* Container for just guts */
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 #current{
     text-align: center;
 }
 
-.row{
-    margin: 4px; 
-}
 .navbar{
     background-color: white;
-}
-
-.header {
-    color: #ebb830; 
-    font-family: "Arial Black", "Arial Bold", sans-serif; 
-    
-}
-.header:hover{
-    color: #ebb830; 
-}
-
-.nav-link{
-    color: lightgray;
-}
-.nav-link:hover { 
-    color: #934434;
 }
 
 #justGuts{
@@ -74,8 +77,22 @@ h5{
 }
 
 #justGutsRow{
-    margin-top: 30%;
+    margin-top: 25%;
+    margin-right: 4px;
+    
 }
 .navbar-toggler-icon {
     color: #934434
 }
+/* Media screens size adjust */
+@media screen and (max-width: 768px) {
+    .index-bg {
+        background-size: auto; 
+    }
+    .info-bg {
+        background-size: auto; 
+    }
+    .justGuts-bg {
+        background-size: auto; 
+    }
+  }
