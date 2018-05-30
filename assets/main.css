@@ -84,6 +84,7 @@ h5{
 .navbar-toggler-icon {
     color: #934434
 }
+
 /* Media screens size adjust */
 @media screen and (max-width: 768px) {
     .index-bg {
@@ -95,4 +96,9 @@ h5{
     .justGuts-bg {
         background-size: auto; 
     }
+    /* this is a black icon with 50% opacity*/
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;..");
+    }
+    
   }
