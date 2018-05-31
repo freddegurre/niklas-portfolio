@@ -3,7 +3,7 @@ body {
 }
 /* set background image per page */
 .index-bg {
-    background: url(./img/wallpaperforwebsite.jpg);
+    background: url(./img/home.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -14,6 +14,11 @@ body {
 }
 .justGuts-bg {
     background: url(./img/justGuts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.blog-bg{
+    background: url(./img/Blog.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
